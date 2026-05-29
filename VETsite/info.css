@@ -1,0 +1,50 @@
+:root{
+    --Primario: #489b37;
+    --Secundario: #327225;
+    --Terciario: #b84d88;
+    --Quarto: #7c1d51;
+    --Quinto: #d8ab17;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+
+
+
+header{background: linear-gradient(var(--Secundario),var(--Primario));
+       color: aliceblue;
+       display: flex;
+       justify-content:center;
+       gap: 50px;}
+
+
+section{justify-items: center;
+        margin: 50px;}
+
+body{background-color: var(--Quarto);
+      margin: 0 auto;
+      color: aliceblue;}
+      
+.logo{max-height: 80px;
+      justify-self: center;}
+
+.tira2{display: flex;
+       gap: 75px;
+       background-color: rgb(51, 30, 37);
+       padding: 50px;
+       border-radius: 20px;}
+
+
+
+
+
+.BotaoVoltar{border-radius: 5px;
+            background-color: var(--Primario);
+            padding-left:50px; padding-right: 50px;}
+
+.BotaoVoltar:hover{background-color: var(--Secundario);}
+
+.VoltarText{text-decoration: none;
+              color: aliceblue;}
+
+footer{justify-items: center;}
